@@ -45,20 +45,6 @@
         "zendframework/zend-code": "3.0.2",
         "zendframework/zend-mail": "^2.7",
 
-        "zendframework/zendservice-recaptcha": "^2.0",
-
-        "mtymek/expressive-config-manager": "^0.4",
-
-        "n3vrax/dk-base": "dev-master",
-        "n3vrax/dk-controller": "dev-master",
-        "n3vrax/dk-zend-authentication": "dev-master",
-        "n3vrax/dk-web-authentication": "dev-master",
-        "n3vrax/dk-rbac": "dev-master",
-        "n3vrax/dk-rbac-guard": "dev-master",
-        "n3vrax/dk-navigation": "dev-master",
-        "n3vrax/dk-user": "dev-master",
-        "n3vrax/dk-mail": "dev-master"
-
     },
     "require-dev": {
         "phpunit/phpunit": "^4.8",
@@ -76,52 +62,7 @@
             "FrontendTest\\": "test/FrontendTest/"
         }
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/n3vrax/dk-base"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/n3vrax/dk-controller"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/n3vrax/dk-authentication"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/n3vrax/dk-authorization"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/n3vrax/dk-zend-authentication"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/n3vrax/dk-web-authentication"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/n3vrax/dk-user"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/n3vrax/dk-mail"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/n3vrax/dk-rbac"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/n3vrax/dk-rbac-guard"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/n3vrax/dk-navigation"
-        }
-    ],
+    
     "scripts": {
         "check": [
             "@cs",
